@@ -1,0 +1,554 @@
+/* font-linking */
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./Fonts/HelveticaNowDisplay-Light.woff2') format('woff2'),
+    url('./Fonts/HelveticaNowDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./Fonts/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+    url('./Fonts/HelveticaNowDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./Fonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+    url('./Fonts/HelveticaNowDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* peragraph */
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-Thin.woff2') format('woff2'),
+    url('./Fonts/Poppins-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-ExtraLight.woff2') format('woff2'),
+    url('./Fonts/Poppins-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-Light.woff2') format('woff2'),
+    url('./Fonts/Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-Regular.woff2') format('woff2'),
+    url('./Fonts/Poppins-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-Medium.woff2') format('woff2'),
+    url('./Fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-Bold.woff2') format('woff2'),
+    url('./Fonts/Poppins-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-ExtraBold.woff2') format('woff2'),
+    url('./Fonts/Poppins-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* inter for header */
+@font-face {
+  font-family: 'Inter';
+  src: url('./Fonts/Inter24pt-Thin.woff2') format('woff2'),
+    url('./Fonts/Inter24pt-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Fonts/Inter24pt-Light.woff2') format('woff2'),
+    url('./Fonts/Inter24pt-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Fonts/Inter24pt-Regular.woff2') format('woff2'),
+    url('./Fonts/Inter24pt-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Fonts/Inter24pt-Medium.woff2') format('woff2'),
+    url('./Fonts/Inter24pt-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Fonts/Inter24pt-Bold.woff2') format('woff2'),
+    url('./Fonts/Inter24pt-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS Root Variables for Dynamic Colors and Values */
+:root {
+  /* Brand & Theme Colors */
+  --orion-color-primary: #000000;
+  --orion-color-primary-hover: #1f1f1f;
+  --orion-color-bg: #ffffff;
+  --orion-color-bg-light: #f9f9f9;
+
+  /* Text Colors */
+  --orion-color-text-main: #000000;
+  --orion-color-text-muted: #5F5C58;
+  --orion-color-text-white: #ffffff;
+
+  /* Accent & Badge Colors */
+  --orion-color-accent-gold: #B88A2A;
+  --orion-color-badge-bg: #FFFDF7;
+  --orion-color-badge-border: #EADBBA;
+
+  /* Border Colors */
+  --orion-color-border: #BABABA;
+  --orion-color-border-1: #DDDDDD;
+  --orion-color-border-dark: #111111;
+
+  /* Typography */
+  --orion-font-heading: 'Helvetica', sans-serif;
+  --orion-font-body: 'Poppins', sans-serif;
+  --orion-font-header: 'Inter', sans-serif;
+
+  --orion-text-p: 16px;
+  --orion-text-h1: 42px;
+  --orion-text-pricing: 46px;
+  --orion-text-h2: 32px;
+  --orion-text-md: 20px;
+  --orion-text-lg: 24px;
+  --orion-text-sm: 14px;
+  --orion-text-cross: 26px;
+
+  /* Border Radii */
+  --orion-border-pill: 9999px;
+  --orion-border-r2: 12px;
+  --orion-border-r3: 16px;
+}
+
+/* Boilerplate Reset */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: var(--orion-font-body);
+  color: var(--orion-color-text-muted);
+  background-color: var(--orion-color-bg);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Dynamic Heading Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--orion-font-heading);
+  color: var(--orion-color-text-main);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+h2,
+h1 {
+  font-size: var(--orion-text-h1);
+}
+
+/* Dynamic Paragraph Typography */
+p {
+  font-family: var(--orion-font-body);
+  color: var(--orion-color-text-muted);
+  font-size: var(--orion-text-p);
+  line-height: 1.3;
+}
+
+/* buttons */
+/* Base Button Styling for Anchor Links */
+.orion-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px 24px;
+  font-family: var(--orion-font-body);
+  font-size: var(--orion-text-p);
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: var(--orion-border-pill);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* 1. Dark Button (Add to Cart) */
+.orion-btn-dark {
+  background-color: var(--orion-color-primary);
+  color: var(--orion-color-text-white);
+  border: 1px solid var(--orion-color-primary);
+}
+
+.orion-btn-dark:hover {
+  background-color: var(--orion-color-bg);
+  color: var(--orion-color-text-main);
+  border-color: var(--orion-color-primary);
+}
+
+/* 2. Light Button (Review Bag) */
+.orion-btn-light {
+  background-color: var(--orion-color-bg);
+  color: var(--orion-color-text-main);
+  border: 1px solid var(--orion-color-border-dark);
+}
+
+.orion-btn-light:hover {
+  background-color: var(--orion-color-primary);
+  color: var(--orion-color-text-white);
+  border-color: var(--orion-color-primary);
+}
+
+/* header */
+.the-header {
+  margin-bottom: 40px;
+  padding: 10px 0px !important;
+}
+
+.loger {
+  color: black !important;
+}
+
+/* Product Info */
+.center-box {
+  margin: 0 auto;
+}
+
+.bdg-the-oner {
+  font-size: var(--orion-border-r3);
+}
+
+.finalprice {
+  font-size: var(--orion-text-pricing);
+}
+
+.crossPrice {
+  font-size: var(--orion-text-cross);
+}
+
+.theitemsofai {
+  font-size: var(--orion-text-p);
+}
+
+.bundle-text-ll {
+  font-family: var(--orion-text-p);
+}
+
+span.text-sm.line-through.text-\[var\(--orion-color-text-muted\)\] {
+  font-size: var(--orion-text-md);
+}
+
+/* header  */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  width: 100%;
+}
+.yahoo{
+  /* background: red; */
+  width: 40%;
+  margin: 0 0 0 auto;
+}
+
+/* Image and heading Section */
+.two-section {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+
+.heading-img {
+  margin-top: 1.3rem;
+  height: 80px;
+}
+
+.right {
+  height: auto;
+  /* background-color: #B88A2A; */
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.right span {
+  border: 1px solid #Dadada;
+  border-radius: 20px;
+  padding: 6px 20px;
+  /* margin-right: 8rem; */
+}
+
+
+.btn h4 {
+  text-decoration: underline;
+  font-family: "Poppins";
+}
+#edit2 {
+  display: none;
+}
+/* offer Paragraph */
+.para p {
+  align-self: center;
+  justify-self: center;
+  padding: 16px;
+  border: 1px solid #B88A2A;
+  color: #B88A2A; 
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* Order Selection */
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 23rem; */
+  /* background-color: saddlebrown; */
+  border: 1px solid #dadada;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom-section h3 {
+  /* align-self: ; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid #Dadada;
+  padding: 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* .box1{
+  width: 100%;
+} */
+
+.left-container {
+  margin-bottom: 1.3rem;
+  height: 80px;
+}
+
+.inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+#inner-price {
+  text-decoration: line-through;
+}
+
+#inner-sec-para {
+  font-weight: bold;
+}
+
+.para-plus-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.right-container {
+  display: flex;
+  gap: 10px;
+
+}
+
+.line {
+  height: 100px;
+  border-left: 1px solid #dadada;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  accent-color: #000;
+  border-radius: 4px;
+}
+/* Payment Details */
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #FAF9F7;
+  border: 1px solid #FAF9F7;
+  border-radius: 20px;
+}
+
+/* .payment-container hr{
+  height: 1px;
+} */
+
+.subtotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+.subtotal h4, .shipping h4{
+  font-weight: bold;
+}
+
+.u-save {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  /* color: #348C45; */
+}
+
+.u-save p,
+.u-save h4 {
+  color: #348c45;
+  /* font-weight: bold; */
+}
+
+.shipping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.total h3 {
+  font-weight: bold;
+  font-family: "Poppins";
+}
+
+.payment-container button {
+  padding: 12px 30px;
+  background-color: var(--orion-color-primary);
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  /* font-weight: 700; */
+  font-size: 1rem;
+}
+.pay-methods img{
+  width: 40px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:768px) {
+  #edit1{
+    display: none;
+  }
+  #edit2{
+    display: block;
+     text-decoration: underline;
+    font-family: "Poppins";
+  }
+  /* #inner-sec-para{
+     
+  } */
+  /* .para{
+    
+  } */
+}
