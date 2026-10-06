@@ -389,10 +389,6 @@ hr {
   margin-bottom: 20px;
 }
 
-.bottom-section h3 {
-  /* align-self: ; */
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -408,10 +404,6 @@ hr {
   border-radius: 20px;
   margin-bottom: 20px;
 }
-
-/* .box1{
-  width: 100%;
-} */
 
 .left-container {
   margin-bottom: 1.3rem;
