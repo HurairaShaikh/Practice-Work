@@ -379,7 +379,7 @@ hr {
 .bottom-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   /* margin-left: 23rem; */
   /* background-color: saddlebrown; */
@@ -461,26 +461,23 @@ input[type="checkbox"] {
   border-radius: 20px;
 }
 
-/* .payment-container hr{
-  height: 1px;
-} */
+.payment-container {
+  width: 100%;
+}
+.payment-container hr{
+  width: 420px;
+}
 
-.subtotal {
+.subtotal,.shipping,.u-save,.total{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 200px;
+  gap: 250px;
+
 }
+
 .subtotal h4, .shipping h4{
   font-weight: bold;
-}
-
-.u-save {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 200px;
-  /* color: #348C45; */
 }
 
 .u-save p,
@@ -489,19 +486,7 @@ input[type="checkbox"] {
   /* font-weight: bold; */
 }
 
-.shipping {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 200px;
-}
 
-.total {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 200px;
-}
 
 .total h3 {
   font-weight: bold;
@@ -530,6 +515,10 @@ input[type="checkbox"] {
 
 
 @media screen and (min-width:300px) and (max-width:768px) {
+  .yahoo{
+    width: 100%;
+    margin: 0;
+  }
   #edit1{
     display: none;
   }
@@ -537,6 +526,9 @@ input[type="checkbox"] {
     display: block;
      text-decoration: underline;
     font-family: "Poppins";
+  }
+  .payment-container hr{
+    width: 100%;
   }
   /* #inner-sec-para{
      
