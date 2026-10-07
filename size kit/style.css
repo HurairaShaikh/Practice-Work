@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Fonts/Poppins-Medium.woff2') format('woff2'),
+    url('./Fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url('./Fonts/Poppins-Regular.woff2') format('woff2'),
+    url('./Fonts/Poppins-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+.all-content{
+    width: 35%;
+    height: 280px;
+    margin: 0 0 0 auto;
+    /* background-color: aqua; */
+    border-radius: 28px;
+    border: 1px solid;
+}
+.image{
+  width: 36px;
+  margin-left: auto;
+  padding:10px 10px 0 0 ;
+  /* align-self: center; */
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.heading-img img{
+    width: 82px;
+    border-radius: 20px;
+}
+
+.right h3{
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30%;
+    color: #111111;
+}
+
+.right p {
+    font-family: "Poppins Regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #62605C;
+}
+
+button{
+    margin-top: 20px;
+    width: 410px;
+    height: 53px;
+    border-radius: 100px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+}
