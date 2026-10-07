@@ -318,7 +318,7 @@ span.text-sm.line-through.text-\[var\(--orion-color-text-muted\)\] {
   margin: 0 10px;
 }
 
- hr {
+hr {
   width: 100%;
   border: 1px solid var(--orion-color-border-1);
 }
@@ -559,7 +559,8 @@ input[type="checkbox"] {
   /* font-weight: 700; */
   font-size: 1rem;
 }
-.payment-container hr{
+
+.payment-container hr {
   border: 1px solid var(--orion-color-border-1);
 }
 
@@ -588,7 +589,8 @@ input[type="checkbox"] {
   .web-head {
     display: none;
   }
-  hr{
+
+  hr {
     display: none;
   }
 
@@ -610,7 +612,7 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 20px ;
+    margin: 0 20px;
   }
 
   .mob-header h3 {
