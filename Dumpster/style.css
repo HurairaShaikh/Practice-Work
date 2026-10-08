@@ -83,13 +83,32 @@ header .logo {
 }
 
 /* dumpster rental */
-.rental .headings{
+/* .rental .headings{
     width: auto;
-    height: 106px;
+    height: 106px; */
+/* } */
+/* #ren-para{
+    margin-left: 150px;
+} */
+
+/* .rental .col-6{
+    width: 100%;
+} */
+
+.ren-img1,.ren-img2{
+    /* height: 500px; */
+    /* width: 100%; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 26px;     */
+     /* height: 400px; */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#ren-para{
-    /* margin-left: 150px; */
-}
+
+
+
 #mob-call{
     display: none;
 }
