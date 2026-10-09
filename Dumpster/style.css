@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "Proxima Semi";
+    src: url(./assets/fonts/Proxima\ nova\ semi-bold.otf);
+
+}
+
 :root {
     --primary-Btn-color: #FD7817;
     --primary-input-bg-color: #F6F6F6;
@@ -10,7 +16,9 @@
     --primary-dark-color: #000000;
     --primary-light-color: #ffffff;
     --font-size-six: 16px;
-    --font-family-arial:"Arial";
+    --font-size-tf: 24px;
+    --font-family-arial: "Arial";
+    --font-family-proxima-semi: "Proxima Semi"
 }
 
 header {
@@ -59,12 +67,13 @@ header .logo {
 }
 
 /* Residential section */
-.residential-sec{
+.residential-sec {
     font-family: var(--font-family-arial);
 }
-#res-para{
+
+#res-para {
     font-size: 16px;
-   
+
 }
 
 .residential-sec button {
@@ -75,10 +84,10 @@ header .logo {
     padding: 10px 39px;
     font-size: var(--font-size-six);
     margin-right: 20px;
-   
+
 }
 
-#img1{
+#img1 {
     height: 500px;
 }
 
@@ -95,45 +104,140 @@ header .logo {
     width: 100%;
 } */
 
-.ren-img1,.ren-img2{
-    /* height: 500px; */
-    /* width: 100%; */
-    /* background-repeat: no-repeat;
+.ren-img1 {
+    height: 500px;
     background-size: cover;
-    border-radius: 26px;     */
-     /* height: 400px; */
+    border-radius: 26px;
+    background-image: url(./assets/Frame\ 38.png);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: var(--primary-light-color);
+    font-family: var(--font-family-arial);
+    font-size: var(--font-size-six);
+}
+
+.ren-img2 {
+    height: 500px;
+    background-size: cover;
+    border-radius: 26px;
+    background-image: url(./assets/Frame\ 48.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    padding-left: 20px;
+    color: var(--primary-light-color);
+    font-family: var(--font-family-arial);
+    font-size: var(--font-size-six);
+    padding-bottom: 20px;
+}
+
+.ren-img1 button {
+    color: var(--primary-light-color);
+    background-color: var(--primary-Btn-color);
+    border: 1px solid var(--primary-Btn-color);
+    border-radius: 10px;
+    padding: 10px 39px;
+    font-size: var(--font-size-six);
+    margin-right: 20px;
+}
+
+.ren-img2 button {
+    color: var(--primary-light-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-light-color);
+    border-radius: 10px;
+    padding: 10px 39px;
+    font-size: var(--font-size-six);
+    margin-right: 20px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+    font-size: var(--font-size-tf);
+    /* font-family: ; */
+}
+
+#logo1 {
+    width: 131px;
+}
+
+footer {
+    height: 279px;
+    /* width: 1440px; */
+    background-color: var(--primary-dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: var(--primary-light-color);
+
+}
+
+footer img {
+    /* color:  var(--primary-Btn-color); */
+    width: 24px;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 190px;
+    border: 1px solid #4C4C4C;
+}
+
+
+.copy-right {
+    font-size: var(--font-size-six);
+
 }
 
 
 
-#mob-call{
+#mob-call {
     display: none;
 }
 
 
-@media screen  and (max-width:768px){
-    html,body{
+@media screen and (max-width:768px) {
+
+    html,
+    body {
         overflow-x: hidden;
         width: 100%;
     }
-    .mob-view1{
+
+    .mob-view1 {
         width: 100%;
     }
-    .mob-view1 #span1{
+
+    .mob-view1 #span1 {
         display: flex;
         align-items: center;
     }
-    #web-call{
+
+    #web-call {
         display: none;
     }
-    #mob-call{
+
+    #mob-call {
         display: inline;
         margin: 10px;
     }
-    #img1{
+
+    #img1 {
         height: 320px;
     }
 }
