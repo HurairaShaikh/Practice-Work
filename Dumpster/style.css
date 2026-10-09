@@ -172,7 +172,7 @@ header .logo {
 }
 
 #logo1 {
-    width: 131px;
+    width: 132px;
 }
 
 footer {
@@ -187,6 +187,13 @@ footer {
 
 }
 
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 footer img {
     /* color:  var(--primary-Btn-color); */
     width: 24px;
@@ -198,12 +205,10 @@ footer img {
     border: 1px solid #4C4C4C;
 }
 
-
 .copy-right {
     font-size: var(--font-size-six);
 
 }
-
 
 
 #mob-call {
