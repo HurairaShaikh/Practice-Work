@@ -190,6 +190,7 @@ header .logo {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
 
 }
 
@@ -201,6 +202,7 @@ header .logo {
     position: absolute;
     right: 0;
     top: -5.5rem;
+    /* background: linear-gradient((var(--primary-Btn-color) ),(#5A2600)); */
 }
 
 .preview button {
