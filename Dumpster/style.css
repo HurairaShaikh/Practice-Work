@@ -16,6 +16,7 @@
     --primary-dark-color: #000000;
     --primary-light-color: #ffffff;
     --font-size-six: 16px;
+    --font-size-fourt: 14px;
     --font-size-tf: 24px;
     --font-family-arial: "Arial";
     --font-family-proxima-semi: "Proxima Semi"
@@ -92,6 +93,8 @@ header .logo {
 }
 
 /* dumpster rental */
+
+
 /* .rental .headings{
     width: auto;
     height: 106px; */
@@ -125,7 +128,6 @@ header .logo {
 
 .ren-img2 {
     height: 500px;
-    background-size: cover;
     border-radius: 26px;
     background-image: url(./assets/Frame\ 48.png);
     width: 100%;
@@ -162,6 +164,57 @@ header .logo {
     margin-right: 20px;
 }
 
+/* preview Section */
+
+.preview {
+    color: white;
+    height: auto;
+    width: auto;
+}
+
+.pre-content {
+    width: auto;
+    height: 400px;
+    padding: 80px 0px 0 0px;
+}
+
+.pre-content p {
+    font-size: var(--font-size-fourt);
+}
+
+.pre-img {
+    height: 396px;
+    width: 1420px;
+    /* border-radius: 26px; */
+    background-image: url(./assets/end\ image.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pre-img2-parent {
+    position: relative;
+}
+
+.pre-img2 {
+    position: absolute;
+    right: 0;
+    top: -5.5rem;
+}
+
+.preview button {
+    color: var(--primary-light-color);
+    background-color: var(--primary-Btn-color);
+    border: 1px solid var(--primary-Btn-color);
+    border-radius: 10px;
+    padding: 10px 39px;
+    font-size: var(--font-size-six);
+    margin-right: 20px;
+}
+
+/* Footer */
+
 .foot {
     display: flex;
     align-items: center;
@@ -187,7 +240,7 @@ footer {
 
 }
 
-footer .container{
+footer .container {
     display: flex;
     flex-direction: column;
     align-items: center;
