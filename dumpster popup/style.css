@@ -1,4 +1,4 @@
-    .container {
+    header .container {
         height: 50px;
         margin-top: 20px;
     }
@@ -202,14 +202,17 @@
     .right-section p {
         font-size: 14px;
     }
-    ul{
+
+    ul {
         padding: 0 20px;
     }
-    ul li{
+
+    ul li {
         padding: 5px;
         font-weight: 500;
     }
-    li::marker{
+
+    li::marker {
         color: #FD7817;
     }
 
@@ -231,11 +234,48 @@
         justify-content: center;
         gap: 10px;
     }
-    .end-section img{
+
+    .end-section img {
         margin-top: 5px;
     }
 
     #number {
         line-height: 0;
         font-weight: 500;
+    }
+
+
+    @media screen and (max-width:768px) {
+
+        /* html,body{
+        width: 100%;
+       } */
+
+        header .container {
+            height: 50px;
+            margin-top: 20px;
+        }
+
+        header img {
+            position: absolute;
+            right: 0;
+            padding-right: 0px;
+            margin-top: 5px;
+        }
+
+        .col1 {
+            width: 100%;
+            margin: 20px;
+        }
+
+        .left-section {
+            padding: 20px;
+            /* margin: 10px 10px 0 10px; */
+        }
+
+        .right-section {
+            width: 100%;
+            padding: 10px;
+        }
+
     }
