@@ -12,7 +12,7 @@
     }
 
     /* 1 popup */
-
+    /* 
     .first-con {
         height: 450px;
         background-color: #FFEDE0;
@@ -53,10 +53,10 @@
         border: none;
         border-radius: 6px;
         width: 70%;
-    }
+    } */
 
     /*  */
-    .sec-con {
+    /* .sec-con {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -83,10 +83,11 @@
     .head-price span,
     li::marker {
         color: #FD7817;
-    }
+    } */
 
     /* 2 Popup */
-    .content {
+
+    /* .content {
         height: 500px;
         width: 1076px;
         display: flex;
@@ -103,7 +104,6 @@
         width: 1024px;
         gap: 10px;
         border-bottom: 1px solid #B0B0B0;
-        /* padding: 0 19px; */
     }
 
     .col1 img {
@@ -145,7 +145,6 @@
 
     .subtotal {
         display: flex;
-        /* align-items: flex-start; */
         justify-content: space-between;
         background-color: #fff;
         padding: 16px;
@@ -174,7 +173,69 @@
         border-radius: 10px;
         border: 1px solid #000;
     }
-
+ */
 
     /* 3 Popup */
-    
+
+
+    .left-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ffe8d8;
+        border-radius: 16px;
+        padding: 0 50px;
+    }
+
+    .right-section {
+        display: flex;
+        /* align-items: flex-start; */
+        justify-content: space-between;
+        flex-direction: column;
+        /* background-color: #ffe8d8; */
+        border-radius: 16px;
+        padding: 0 50px;
+    }
+
+    .right-section p {
+        font-size: 14px;
+    }
+    ul{
+        padding: 0 20px;
+    }
+    ul li{
+        padding: 5px;
+        font-weight: 500;
+    }
+    li::marker{
+        color: #FD7817;
+    }
+
+    .end-section {
+        text-align: center;
+    }
+
+    .end-section button {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+        color: #fff;
+        background-color: #FD7817;
+        border: 1px solid #FD7817;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .end-section img{
+        margin-top: 5px;
+    }
+
+    #number {
+        line-height: 0;
+        font-weight: 500;
+    }
