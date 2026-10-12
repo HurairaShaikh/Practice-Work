@@ -6,11 +6,12 @@
     header img {
         position: absolute;
         right: 0;
-        padding-right: 90px;
+        /* padding-right: 90px; */
+        padding-right: 50px;
         margin-top: 5px;
     }
 
-    /*  */
+    /* 1 popup */
 
     .first-con {
         height: 450px;
@@ -83,3 +84,97 @@
     li::marker {
         color: #FD7817;
     }
+
+    /* 2 Popup */
+    .content {
+        height: 500px;
+        width: 1076px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #F7F7F7;
+        padding: 26px;
+        border-radius: 16px;
+    }
+
+
+    .col1 {
+        height: 164px;
+        width: 1024px;
+        gap: 10px;
+        border-bottom: 1px solid #B0B0B0;
+        /* padding: 0 19px; */
+    }
+
+    .col1 img {
+        height: 126px;
+        width: 166px;
+        border-radius: 16px;
+    }
+
+    .col2 {
+        height: 122px;
+        width: 742px;
+    }
+
+    .col2 h2 {
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .col2 p {
+        line-height: 140%;
+    }
+
+    #price,
+    #quantity {
+        font-weight: bold;
+    }
+
+    #remove {
+        color: #E71919;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .subtotal {
+        display: flex;
+        /* align-items: flex-start; */
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    #prixe {
+        color: #FD7817;
+    }
+
+    .btns {
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        gap: 20px;
+    }
+    #btn1{
+        color: #fff;
+        background-color: #FD7817;
+        padding: 10px 20px ;
+        border-radius: 10px;
+        border: 1px solid #FD7817;
+    }
+    #btn2{
+         padding: 10px 25px ;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+
+
+    /* 3 Popup */
+    
