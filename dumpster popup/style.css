@@ -12,7 +12,7 @@
     }
 
     /* 1 popup */
-    /* 
+    
     .first-con {
         height: 450px;
         background-color: #FFEDE0;
@@ -53,10 +53,10 @@
         border: none;
         border-radius: 6px;
         width: 70%;
-    } */
+    } 
 
     /*  */
-    /* .sec-con {
+    .sec-con {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -83,199 +83,6 @@
     .head-price span,
     li::marker {
         color: #FD7817;
-    } */
+    } 
 
-    /* 2 Popup */
-
-    /* .content {
-        height: 500px;
-        width: 1076px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: #F7F7F7;
-        padding: 26px;
-        border-radius: 16px;
-    }
-
-
-    .col1 {
-        height: 164px;
-        width: 1024px;
-        gap: 10px;
-        border-bottom: 1px solid #B0B0B0;
-    }
-
-    .col1 img {
-        height: 126px;
-        width: 166px;
-        border-radius: 16px;
-    }
-
-    .col2 {
-        height: 122px;
-        width: 742px;
-    }
-
-    .col2 h2 {
-        font-size: 24px;
-        line-height: 120%;
-    }
-
-    .col2 p {
-        line-height: 140%;
-    }
-
-    #price,
-    #quantity {
-        font-weight: bold;
-    }
-
-    #remove {
-        color: #E71919;
-        text-decoration: underline;
-        font-weight: bold;
-    }
-
-    .details {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .subtotal {
-        display: flex;
-        justify-content: space-between;
-        background-color: #fff;
-        padding: 16px;
-        border-radius: 16px;
-    }
-
-    #prixe {
-        color: #FD7817;
-    }
-
-    .btns {
-        display: flex;
-        align-items: flex-end;
-        justify-content: end;
-        gap: 20px;
-    }
-    #btn1{
-        color: #fff;
-        background-color: #FD7817;
-        padding: 10px 20px ;
-        border-radius: 10px;
-        border: 1px solid #FD7817;
-    }
-    #btn2{
-         padding: 10px 25px ;
-        border-radius: 10px;
-        border: 1px solid #000;
-    }
- */
-
-    /* 3 Popup */
-
-
-    .left-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        background-color: #ffe8d8;
-        border-radius: 16px;
-        padding: 0 50px;
-    }
-
-    .right-section {
-        display: flex;
-        /* align-items: flex-start; */
-        justify-content: space-between;
-        flex-direction: column;
-        /* background-color: #ffe8d8; */
-        border-radius: 16px;
-        padding: 0 50px;
-    }
-
-    .right-section p {
-        font-size: 14px;
-    }
-
-    ul {
-        padding: 0 20px;
-    }
-
-    ul li {
-        padding: 5px;
-        font-weight: 500;
-    }
-
-    li::marker {
-        color: #FD7817;
-    }
-
-    .end-section {
-        text-align: center;
-    }
-
-    .end-section button {
-        margin-top: 50px;
-        margin-bottom: 20px;
-        width: 100%;
-        padding: 10px;
-        color: #fff;
-        background-color: #FD7817;
-        border: 1px solid #FD7817;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .end-section img {
-        margin-top: 5px;
-    }
-
-    #number {
-        line-height: 0;
-        font-weight: 500;
-    }
-
-
-    @media screen and (max-width:768px) {
-
-        /* html,body{
-        width: 100%;
-       } */
-
-        header .container {
-            height: 50px;
-            margin-top: 20px;
-        }
-
-        header img {
-            position: absolute;
-            right: 0;
-            padding-right: 0px;
-            margin-top: 5px;
-        }
-
-        .col1 {
-            width: 100%;
-            margin: 20px;
-        }
-
-        .left-section {
-            padding: 20px;
-            /* margin: 10px 10px 0 10px; */
-        }
-
-        .right-section {
-            width: 100%;
-            padding: 10px;
-        }
-
-    }
+   
