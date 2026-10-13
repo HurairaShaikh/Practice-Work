@@ -400,7 +400,7 @@ h2 {
     color: var(--negar-light-color);
 }
 .mob-card-view{
-    display: none;
+    display: flex;
 }
 
 
@@ -432,10 +432,10 @@ h2 {
     .end-con {
         flex-direction: column;
     }
-    .mob-card-view{
+    /* .mob-card-view{
         display: flex;
-        /* align-items: flex-start; */
-    }
+        align-items: flex-start;
+    } */
     .mob-card-view .cards{
         border-right: 1px solid var(--negar-light-color);
     }
