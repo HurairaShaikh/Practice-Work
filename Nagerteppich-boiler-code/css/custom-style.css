@@ -399,6 +399,9 @@ h2 {
     background-color: var(--negar-star-light);
     color: var(--negar-light-color);
 }
+.mob-card-view{
+    display: none;
+}
 
 
 
@@ -406,18 +409,34 @@ h2 {
     html,
     body{
         width: 100%;
+        overflow-x: hidden;
     }
-    .ani-types-slider{
+    
+    /* .ani-types-slider{
         width: 100% ;
-    }
+    } */
     .animals-type span{
         line-height: 3;
     }
     .slider{
         flex-direction: column;
+        
+    }
+    .card,.cards{
+        border-right: none;
     }
     #mob-view{
         display: none;
     }
     
+    .end-con {
+        flex-direction: column;
+    }
+    .mob-card-view{
+        display: flex;
+        /* align-items: flex-start; */
+    }
+    .mob-card-view .cards{
+        border-right: 1px solid var(--negar-light-color);
+    }
 }
