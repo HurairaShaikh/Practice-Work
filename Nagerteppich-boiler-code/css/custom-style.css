@@ -105,9 +105,7 @@
     --nager-border-eight: 8px;
     --nager-border-ten: 10px;
     --nager-border-sixteen: 16px;
-    --neger-btn-radius:39px
-
-
+    --neger-btn-radius: 39px
 }
 
 body {
@@ -364,8 +362,6 @@ h2 {
 
 .end-con {
     display: flex;
-    /* align-items: flex-start;
-    justify-content: space-between; */
     width: auto;
     gap: 10px;
     border: 1px solid var(--negar-star-light);
@@ -373,14 +369,25 @@ h2 {
     border-radius: var(--nager-border-sixteen);
     color: var(--negar-light-color);
     background-color: var(--negar-primary-color);
-
 }
+
+.line {
+    height: 90px;
+    width: 0;
+    color: white;
+    border-right: 1px solid #fff;
+}
+
 
 .cards {
     border: none;
-    border-right: 1px solid var(--negar--light-border);
-    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 
+.cards-inner-content {
+    padding-right: 16px;
 }
 
 .cards h6 {
@@ -388,55 +395,75 @@ h2 {
     font-size: var(--nager-border-sixteen);
 }
 
-.cards p ,#end-sec-para{
+.cards p,
+#end-sec-para {
     font-weight: 300;
 }
 
-.end-sec-btn a{
+.end-sec-btn a {
     text-decoration: none;
     border-radius: var(--neger-btn-radius);
     padding: 16px 56px;
     background-color: var(--negar-star-light);
     color: var(--negar-light-color);
 }
-.mob-card-view{
+
+.mob-card-view {
     display: flex;
 }
 
+.mob-card-view .cards {
+    width: 180px;
+}
+
+.second-slider h2 {
+    font-weight: 700;
+}
 
 
 @media screen and (max-width:768px) {
+
     html,
-    body{
+    body {
         width: 100%;
         overflow-x: hidden;
     }
-    
+
     /* .ani-types-slider{
         width: 100% ;
     } */
-    .animals-type span{
+    .animals-type span {
         line-height: 3;
     }
-    .slider{
+
+    .slider {
         flex-direction: column;
-        
+
     }
-    .card,.cards{
+
+    .card,
+    .cards {
         border-right: none;
     }
-    #mob-view{
+
+    #mob-view {
         display: none;
     }
-    
+
     .end-con {
         flex-direction: column;
-    }
-    /* .mob-card-view{
-        display: flex;
         align-items: flex-start;
-    } */
-    .mob-card-view .cards{
-        border-right: 1px solid var(--negar-light-color);
+    }
+
+    .mob-card-view {
+        display: flex;
+    }
+
+    .mob-line {
+        display: none;
+    }
+
+    .mob-card-view .cards {
+        width: 109px;
     }
 }
