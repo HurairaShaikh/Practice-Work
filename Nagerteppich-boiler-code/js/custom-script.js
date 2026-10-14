@@ -1,7 +1,9 @@
- var swiper = new Swiper('.mySwiper', {
-  slidesPerView:4,
-        scrollbar: {
-          el: '.swiper-scrollbar',
-          hide: true,
-        },
-      });
+var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
