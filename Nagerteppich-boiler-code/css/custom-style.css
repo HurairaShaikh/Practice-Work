@@ -525,7 +525,9 @@ h2 {
 }
 
 
-
+.mob-slider-view{
+    display: none;
+}
 
 
 
@@ -545,6 +547,12 @@ h2 {
         width: 100%;
         overflow-x: hidden;
     }
+    .nager-mt{
+        margin-top: 50px;
+    }
+    /* .mob-section-margin{
+        margin-top: 50px;
+    } */
 
     /* First Section */
     .animals-type span {
@@ -585,7 +593,7 @@ h2 {
 
     /* Third section */
     .second-slider {
-        padding: 20px 0 0 0;
+        padding: 20px 0 40px 0;
     }
 
     .sec-slider-content {
@@ -618,10 +626,12 @@ h2 {
     .arrows-btns{
         display: none;
     }
-    .mob-slider-views{
-        display: flex;
-        /* flex-direction: column; */
+    #web-swiper{
+        display: none;
     }
+    .mob-slider-view{
+       display: block;
 
+    }
 
 }
