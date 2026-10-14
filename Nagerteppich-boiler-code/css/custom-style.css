@@ -194,12 +194,11 @@ h2 {
 
 .card img{
     width: 52px;
-    /* margin-bottom: 20px; */
 }
 
 #frame-img{
-    /* position: relative;
-    right: 15px; */
+    position: relative;
+    right: 15px;
     width: 80px;
 }
 .card:hover {
@@ -550,9 +549,6 @@ h2 {
     .nager-mt{
         margin-top: 50px;
     }
-    /* .mob-section-margin{
-        margin-top: 50px;
-    } */
 
     /* First Section */
     .animals-type span {
@@ -561,8 +557,12 @@ h2 {
 
     .slider {
         flex-direction: column;
-
     }
+    #frame-img{
+    position: relative;
+    right: 15px;
+    width: 80px;
+}
 
     .card,
     .cards {
