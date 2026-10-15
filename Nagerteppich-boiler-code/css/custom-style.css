@@ -113,9 +113,9 @@
 }
 
 body {
-    background-color: var(--negar-body-color);
     font-family: var(--neger-body-font);
     font-weight: 500;
+    background-color: var(--negar-body-color);
 }
 
 h1,
@@ -137,6 +137,8 @@ h6 {
 p {
     font-size: var(--negar-font-p);
     line-height: 1;
+    font-weight: 300;
+    color: var(--negar-dark-color);
 }
 
 h1 {
@@ -146,19 +148,12 @@ h1 {
 h2 {
     font-size: var(--negar-font-h2);
     color: var(--negar-primary-color);
-}
-
-.nager-mt {
-    margin-top: 100px;
-}
-
-
-.headings h2 {
     font-weight: 700;
 }
 
-.headings p {
-    font-weight: 300;
+
+.nager-mt {
+    margin-top: 100px;
 }
 
 .animals-type span {
@@ -167,6 +162,7 @@ h2 {
     box-shadow: var(--nager-animal-box-shadow);
     background-color: var(--negar-light-color);
     border: 1px solid var(--negar-light-color);
+    margin-left: 10px;
 }
 
 .animals-type span img {
@@ -174,7 +170,7 @@ h2 {
 }
 
 
-.slider {
+.ani-slider {
     display: flex;
     border: 1px solid var(--negar-star-light);
     padding: 16px;
@@ -184,16 +180,20 @@ h2 {
 }
 
 
-.card {
-    border: none;
+.ani-types-slider-card {
+    border: 0;
     border-right: 1px solid var(--negar--light-border);
     border-bottom: 2px solid var(--negar--light-border);
-    padding: 16px;
-    /* background-color: red; */
+    border-bottom-width:4px;
+    padding: 16px;   
+}
+.ani-types-slider-card:last-child{
+    border-right: 0;
 }
 
-.card img{
+.ani-types-slider-card img{
     width: 52px;
+    margin-bottom: 10px;
 }
 
 #frame-img{
@@ -201,23 +201,17 @@ h2 {
     right: 15px;
     width: 80px;
 }
-.card:hover {
-    border-bottom: 2px solid var(--negar-star-light);
+.ani-types-slider-card:hover {
+    border-bottom: 4px solid var(--negar-star-light);
 }
 
-.card h6 {
+.ani-types-slider-card h6 {
     font-weight: 600;
     color: var(--negar-text-green);
 }
 
-.ani-end-para p,
-.card p {
-    font-weight: 300;
-    color: var(--negar-dark-color);
-}
 
-
-/*  */
+/* 2 section */
 .rug-section {
     position: relative;
     width: 100%;
@@ -336,44 +330,33 @@ h2 {
 /* second section End part   */
 .end-con {
     display: flex;
-    width: auto;
-    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
     border: 1px solid var(--negar-star-light);
     padding: 26px;
     border-radius: var(--nager-border-sixteen);
     color: var(--negar-light-color);
-    background-color: var(--negar-primary-color);
+    background-color: var(--negar-primary-color);    
+}
+
+
+.end-con-cards-inner-content {
+     padding-right: 30px;
+    border-right: 1px solid var(--negar-light-color);
+}
     
+.end-con-cards:last-child{
+    border-right:0 ;
 }
 
-.line {
-    height: 90px;
-    width: 0;
-    color: white;
-    border-right: 1px solid #fff;
-}
-
-
-.cards {
-    border: none;
-    display: flex;
-    /* align-items: flex-start; */
-    /* justify-content: center; */
-}
-
-.cards-inner-content {
-    padding-right: 16px;
-   
-}
-
-.cards h6 {
+.end-con-cards h6 {
     font-weight: 600;
     font-size: var(--nager-border-sixteen);
 }
 
-.cards p,
-#end-sec-para {
-    font-weight: 300;
+.end-con-cards p{
+    color: var(--negar-light-color);
 }
 
 .end-sec-btn a {
@@ -400,9 +383,7 @@ h2 {
 
 /* Second Slider */
 
-.second-slider h2 {
-    font-weight: 700;
-}
+
 
 .second-slider {
     height: auto;
@@ -529,8 +510,20 @@ h2 {
 }
 
 
+/* Fourth Section */
+.videos{
+    background-color: var(--negar-body-color);
+}
 
-
+.videos h2{
+    font-weight: 700;
+}
+.insta-link{
+    background-color: var(--negar-light-color);
+    border: 1px solid var(--negar-light-color);
+    padding: 17px 6px;
+    border-radius: 34px;
+}
 
 
 
@@ -555,8 +548,11 @@ h2 {
         line-height: 3;
     }
 
-    .slider {
+    .ani-slider {
         flex-direction: column;
+    }
+    .ani-types-slider-card{
+         border-right: 0;
     }
     #frame-img{
     position: relative;
@@ -564,10 +560,10 @@ h2 {
     width: 80px;
 }
 
-    .card,
+    /* .card,
     .cards {
         border-right: none;
-    }
+    } */
 
     #mob-view {
         display: none;
@@ -633,5 +629,7 @@ h2 {
        display: block;
 
     }
-
+    .animals-type span{
+        margin-left: 20px;
+    }
 }
