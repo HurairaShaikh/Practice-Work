@@ -594,7 +594,33 @@ h2 {
     display: none;
 }
 
+/* Footer */
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+.language-price select {
+    font-size: var(--negar-font-p);
+    border: none;
+    background-color: transparent;
+}
+
+.language-price img {
+    width: 16px;
+}
+
+.policy {
+    font-size: var(--negar-font-p);
+    font-weight: bold;
+}
+
+.payments img {
+    width: 38px;
+    margin-left: 5px;
+}
 
 
 @media screen and (max-width:768px) {
@@ -765,5 +791,16 @@ h2 {
         content:"";
         margin-left: 100px;
     } */
-
+    /* Footer */
+    footer .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .policy{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .payments img{
+        margin-bottom: 20px;
+    }
 }
