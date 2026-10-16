@@ -550,6 +550,39 @@ h2 {
     font-size: 20px;
 }
 
+.image-slider img{
+    width: 220px;
+    margin-bottom: 30px;
+}
+.image-slider p{
+    font-weight: bold;
+    color:var(--negar-primary-color);
+    line-height: 1.5;
+}
+.stars-plus-text{
+    display: flex;
+    line-height: normal;
+}
+#price{
+    color: red;
+    text-decoration: line-through;
+}
+.stars-plus-text img{
+    width: 12px;
+}
+.image-slider span{
+    font-size: var(--negar-font-sm);
+    
+}
+
+.less-thickness{
+    font-weight: 200;
+}
+
+.mob-product-img-slider{
+    display: none;
+}
+
 /* 6th section */
 .sixth-section {
     background-color: var(--negar-primary-color);
@@ -738,6 +771,13 @@ footer .container {
     .fourth-section video {
         width: 243px;
         height: 342px;
+    }
+    /* 5th section */
+    .web-product-img-slider{
+        display: none;
+    }
+    .mob-product-img-slider{
+        display: block;
     }
 
     /* 6th section */
